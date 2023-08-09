@@ -81,8 +81,8 @@ const Settings = {
 };
 
 /***********************/
-const Ip = process.env.PORT ? '0.0.0.0' : '127.0.0.1';
-const Port = 8000;
+const Ip = '127.0.0.1';
+const Port = 8010;
 
 const Cookie = process.env.Cookie || Cookies;
 
